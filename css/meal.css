@@ -1,0 +1,243 @@
+body,
+p,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+/* header */
+.header{
+    height:0.52rem;
+}
+.header_s{
+    padding-left:0.19rem;
+    padding-right:0.14rem;
+    display: flex;
+    padding-top:0.12rem;
+    padding-bottom:0.12rem;
+ }
+ .header_s .i_one{
+     width:0.2rem;
+     height:0.23rem;
+ }
+ .header_s .i_two{
+     padding-left:2.0rem;
+     padding-right:0.29rem;
+ }
+ .header_s .i_three{
+     padding-right:0.17rem;
+ }
+
+ /* nav */
+ .nav{
+     height:0.5rem;
+     display:flex;
+     padding-top:0.2rem;
+     padding-left:0.15rem;
+ }
+ .nav img{
+     width:0.3rem;
+     height:0.3rem;
+ }
+.nav h4{
+    font-size:0.22rem;
+}
+
+/* font */
+.font{
+    height:0.4rem;
+   
+}
+.font h2{
+    font-size:0.24rem;
+    padding-left:0.15rem;
+}
+
+/* section */
+.section{
+    height:0.3rem;
+    display:flex;
+    padding-left:0.15rem;
+}
+.section .s_one{
+    font-size:0.12rem;
+    color:#939393;
+    padding-right:0.07rem;
+}
+.section .s_two{
+    font-size:0.12rem;
+    color:#939393;
+    padding-right:0.07rem;
+}
+.section .s_three{
+    padding-left:0.9rem;
+}
+
+/* datu */
+.datu img{
+    width:3.44rem;
+    height:1.92rem;
+    padding-left:0.15rem;
+    padding-right:0.15rem;
+}
+.ziti{
+    height:0.41rem;
+    display:flex;
+   
+}
+.ziti a{
+    text-decoration: none;
+}
+.ziti h2{
+    font-size:0.22rem;
+    color:black;
+    padding-top:0.17rem;
+    padding-left:0.15rem;
+    
+}
+.ziti h3{
+    font-size:0.18rem;
+    color:#4fcabf;
+    padding-left:1.4rem;
+    padding-top:0.24rem;
+}
+
+/* 汉堡 */
+.xilie{
+    height:0.86rem;
+}
+.xilie h3{
+    font-size:0.18rem;
+    padding-left:0.15rem;
+    padding-top:0.15rem;
+
+}
+.xilie .shutiao{
+    display:flex;
+    padding-top:0.06rem;
+}
+.shutiao h4{
+    font-size:0.14rem;
+    padding-left:0.15rem;
+    padding-right:0.1rem;
+    
+}
+.shutiao .s_one{
+    font-size:0.11rem;
+    color:#a8a8a8;
+    padding-right:0.06rem;
+}
+.shutiao .i_one{
+    width:0.51rem;
+    height:0.16rem;
+}
+.shutiao .s_two {
+    font-size: 0.11rem;
+    color: #a8a8a8;
+    padding-left: 1.6rem;
+}
+.shutiao .s_three{
+    font-size:0.11rem;
+    color:#a8a8a8;
+    padding-left:1.2rem;
+}
+
+/* 可乐 */
+.kele{
+    height:0.7rem;
+    
+}
+.kele h3 {
+    font-size: 0.18rem;
+    padding-left: 0.15rem;
+    padding-top: 0.15rem;
+}
+.kele .yinpin{
+    display:flex;
+    padding-top:0.1rem;
+}
+.kele h4 {
+    font-size: 0.14rem;
+    padding-left:0.15rem;
+    padding-right:0.15rem;
+    
+}
+.kele .s_one {
+    font-size: 0.11rem;
+    color: #a8a8a8;
+    
+    
+}
+.kele .s_three {
+    font-size: 0.11rem;
+    color: #a8a8a8;
+    padding-left:2.2rem;
+    
+}
+
+/* 提示 */
+.tishi{
+    height:0.64rem;
+   
+ }
+ .tishi h2{
+     font-size:0.22rem;
+     padding-left:0.15rem;
+     padding-top:0.35rem;
+}
+
+/* time */
+.time{
+    height:0.64rem;
+    padding-left:0.15rem;
+    padding-top:0.1rem;
+}
+.time h3{
+    font-size:0.16rem;
+    
+}
+.time p{
+    font-size:0.14rem;
+    color:#a2a2a2;
+    padding-top:0.1rem;
+}
+
+/* 更多  */
+.gengduo{
+   height:0.38rem;
+    
+}
+.gengduo a{
+    text-decoration: none;
+}
+.gengduo p{
+    font-size:0.16rem;
+    color:#3bb7a8;
+    padding-left:1.3rem;
+    padding-top:0.3rem;
+}

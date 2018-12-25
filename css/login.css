@@ -1,0 +1,164 @@
+body,
+p,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+/* header */
+.header{
+    height:0.98rem;
+
+}
+.header img{
+    width:0.2rem;
+    height:0.2rem;
+    float:left;
+    padding-left:0.15rem;
+    padding-top:0.175rem;
+}
+.header span{
+    font-size:0.2rem;
+    color:#68b3ab;
+    float:right;
+    padding-right:0.15rem;
+    padding-top:0.175rem;
+}
+
+/* section */
+.section{
+    height:1.02rem;
+}
+.section p{
+    font-size:0.26rem;
+    padding-left:0.46rem;
+}
+
+/* nav */
+.nav{
+    height:0.38rem;
+    
+}
+.nav_one {
+    padding-left: 0.45rem;
+}
+
+.nav_one h3 {
+    font-size: .16rem;
+    display: flex;
+    float: left;
+    margin-top: .54rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.nav_one input {
+    padding-top: .35rem;
+    outline: none;
+    border: none;
+    height: .40rem;
+    width: 2.53rem;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: .16rem;
+    display: flex;
+    color: #d2d2d2;
+    float: left;
+    text-indent: .25rem;
+}
+
+.nav_one img {
+    width: 0.2rem;
+    height: 0.15rem;
+    margin-top: 0.07rem;
+    margin-left: .05rem;
+}
+
+/* font */
+.font{
+    height:0.5rem;
+}
+.font p{
+    font-size:0.14rem;
+    color:#9e9e9e;
+    padding-left:0.45rem;
+}
+
+/* 验证 */
+.yanzheng{
+    height:0.765rem;
+}
+.yanzheng a{
+    display:block;
+    width:2.285rem;
+    height:0.47rem;
+    text-decoration: none;
+    background-color:#b1ece8;
+    color:white;
+    text-align:center;
+    line-height:0.47rem;
+    font-size:0.16rem;
+    border-radius:0.075rem;
+    margin-left:0.65rem;
+    overflow:hidden;
+}
+
+
+/* pass */
+.pass a{
+    text-decoration: none;
+}
+.pass p{
+    font-size:0.18rem;
+    color:#858585;
+    padding-left:0.46rem;
+}
+
+/* qita */
+.qita{
+    height:1.7rem;
+    display:flex;
+}
+.qita img{
+    width:0.57rem;
+    height:0.57rem;
+    padding-left:0.8rem;
+    padding-top:1.1rem;
+}
+
+/* footer */
+.footer{
+    padding-left:0.4rem;
+}
+.footer p{
+    font-size:0.16rem;
+    color:#858585;
+}
+.footer a{
+    font-size:0.16rem;
+    text-decoration: none;
+    color:#34b49f;
+}

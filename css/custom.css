@@ -1,0 +1,161 @@
+body,
+p,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+/* header */
+.header{
+    height:0.5rem;
+    border-bottom:1px solid #dfdfdf;
+    background-color:#f0f0f0;
+}
+.header img{
+    width:0.175rem;
+    height:0.225rem;
+    float:left;
+    padding-left:0.15rem;
+    padding-top:0.18rem;
+}
+.header span{
+    font-size:0.22rem;
+    color:#1e1e1e;
+    float:left;
+    line-height:0.5rem;
+    padding-left:1.22rem;
+}
+
+/* question */
+.question{
+    height:0.38rem;
+    background-color:#f0f0f0;
+    border-bottom:1px solid #dadada;
+}
+.question p{
+    font-size:0.2rem;
+    color:#929292;
+    line-height:0.38rem;
+    padding-left:0.17rem;
+}
+
+/* pay */
+.pay{
+    height:0.5rem;
+    border-bottom:1px solid #e6e6e6;
+    /* display:flex; */
+    line-height:0.5rem;
+}
+.pay img{
+    width:0.26rem;
+    height:0.25rem;
+    padding-left:0.15rem;
+    padding-top:0.13rem;
+    float:left;
+}
+.pay span{
+    font-size:0.16rem;
+    color:#929292;
+    padding-left:0.1rem;
+    float:left;
+}
+.pay .i_two{
+    width:0.16rem;
+    height:0.22rem;
+    float:right;
+    padding-right:0.17rem;
+}
+
+/* bigbox */
+.bigbox{
+    height:5rem;
+}
+.bigbox .box{
+    height:1rem;
+    border-bottom:1px solid #dadada;
+}
+.box .left{
+    width:49%;
+    height:1rem;
+    float:left;
+    border-right:1px solid #dadada;
+}
+.box .right{
+    width:49%;
+    height:1rem;
+    float:right;
+}
+.box a{
+    text-decoration: none;
+}
+.box h2{ 
+    font-size:0.18rem;
+    color:#929292;
+    padding-left:0.1rem;
+    padding-top:0.29rem;
+}
+.box p{
+    font-size:0.15rem;
+    color:#545454;
+    padding-left:0.1rem;
+    padding-top:0.1rem;
+}
+
+
+/* 意见反馈 */
+.yijian{
+    height:0.465rem;
+    border-bottom:1px solid #dadada;   
+    line-height:0.465rem;
+     
+}
+.yijian h2{
+    font-size:0.18rem;
+    color:#929292;
+    float:left;
+    padding-left:0.17rem;
+}
+.yijian span{
+    font-size:0.16rem;
+    color:#949494;
+    float:left;
+    padding-left:1.6rem;
+}
+.yijian img{
+     width:0.16rem;
+     height:0.22rem;
+     float:right;
+     padding-top:0.12rem;
+     padding-right:0.15rem;
+}
+
+/* footer */
+.footer{
+    height:0.42rem;
+    background-color:#f0f0f0;
+}
